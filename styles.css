@@ -1,27 +1,35 @@
+html{
+    background-color: #0E131F;
+}
 h1{
     font-family: 'Roboto', sans-serif;
     font-size:3em;
     margin: 20px 0 0 0;
+    color:white;
 }
 h2{
     font-family: 'Roboto', sans-serif;
     font-size:1.5em;
     margin: 20px 0 0 0;
+    color:white;
 }
 h3{
     font-family: 'Roboto', sans-serif;
     font-size:1em;
-    color: gray;
+    color: #FF0035;
     margin: 0;
+    font-weight:400;
 }
 h5{
     font-family: 'Roboto', sans-serif;
     font-size:1em;
     margin: 0;
+    color:white;
 }
 p{
     font-family: 'Roboto', sans-serif;
     font-size:1.25em;
+    color:white;
 }
 
 .page-wrapper{
@@ -67,15 +75,17 @@ p{
     height: 1px;
     width: 1px;
     position: absolute;
-    background-color: black;
+    background-color: white;
     left:50%;
-    top:25%;
+    top:30%;
 }
 
 .one-year-wrapper i{
+    font-size: 3em;
     position: absolute;
-    left:48.5%;
-    top:26%;
+    left:44.5%;
+    top:32%;
+    color:white
 }
 
 .average-life-wrapper{
@@ -89,9 +99,9 @@ p{
     height: 8.5px;
     width: 8.5px;
     position: absolute;
-    background-color: black;
+    background-color: white;
     left:50%;
-    top:25%;
+    top:31%;
 }
 
 .jews-killed-wrapper{
@@ -111,7 +121,7 @@ p{
     height: 500px;
     width: 866400px; /* 6 million people died */
     position: absolute;
-    background-color: lightgreen;
+    background-color: #38405F;
     
 }
 
@@ -119,7 +129,7 @@ p{
     height: 350px;
     width: 206285px; /* 1 million children died */
     position: absolute;
-    background-color: lightblue;
+    background-color: #333138;
     left: 1.0035%;
     top: 16%;
 }
@@ -131,23 +141,94 @@ p{
     position: sticky;
 }
 
-.jews-killed-wrapper .jews-killed .jewish-children-killed .child-potential{
+.fact-statement-1{
     width: 700px;
-    margin-left: 2%;
+    margin-left: 10%;
     margin-top: 50px;
     text-align: center;
 }
 
 .mouse-compare{
     width:900px;
-    margin-left:5%;
-    margin-top: -80px;
+    margin-left:20%;
+    margin-top: -100px;
     text-align: center;
 }
 
-.mouse-compare-2{
+.german-compare{
     width:900px;
-    margin-left:7%;
-    margin-top: -240px;
+    margin-left:30%;
+    margin-top: -220px;
     text-align: center;
 }
+
+.fact-statement-2{
+    width: 700px;
+    margin-left: 40%;
+    margin-top: -175px;
+    text-align: center;
+}
+
+.fact-statement-3{
+    width: 700px;
+    margin-left: 50%;
+    margin-top: -100px;
+    text-align: center;
+}
+.fact-statement-4{
+    width: 700px;
+    margin-left: 60%;
+    margin-top: -95px;
+    text-align: center;
+}
+.fact-statement-5{
+    width: 700px;
+    margin-left: 70%;
+    margin-top: -150px;
+    text-align: center;
+}
+.fact-statement-6{
+    width: 700px;
+    margin-left: 99%;
+    margin-top: -100px;
+    text-align: center;
+}
+
+
+@media (max-width: 575.98px) { 
+
+    h1{
+        font-size:2em;
+    }
+    h2{
+        font-size:1em;
+    }
+    h3{
+        font-size:0.75em;
+    }
+    p{
+        font-size:0.75em;
+    }
+
+    .one-year-wrapper i{
+        left:33.5%;
+    }
+
+    .jews-killed-wrapper .jews-killed{
+        height: 700px;
+        width: 618857; /* 6 million people died */
+    }
+
+    .ruler {
+        background-position: 0 660px;
+      }
+
+    
+    .jews-killed-title {
+        width: 300px;
+    }
+
+    .jewish-children-killed-title {
+        width: 200px;
+    }
+ }
