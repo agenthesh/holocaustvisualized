@@ -221,4 +221,50 @@ p{
     .jewish-children-killed-title {
         width: 200px;
     }
+
+    .fact-statement-1{
+        width: 300px;
+        margin-left: 10%;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .mouse-compare{
+        margin-top: -100px;
+    }
+
+    .german-compare{
+        margin-top: -190px;
+    }
+    
+    .fact-statement-2{
+        width: 300px;
+        margin-left: 40%;
+        margin-top: -165px;
+        text-align: center;
+    }
+    
+    .fact-statement-3{
+        width: 300px;
+        margin-left: 50%;
+        text-align: center;
+    }
+    .fact-statement-4{
+        width: 300px;
+        margin-left: 60%;
+        margin-top: -75px;
+        text-align: center;
+    }
+    .fact-statement-5{
+        width: 300px;
+        margin-left: 70%;
+        margin-top: -150px;
+        text-align: center;
+    }
+    .fact-statement-6{
+        width: 300px;
+        margin-left: 99.8%;
+        margin-top: -75px;
+        text-align: center;
+    }
  }
